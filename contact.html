@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. NUT - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="full-width-grid-con">
+        <nav class="grid-con">
+            <div class="col-span-4 m-col-span-12 l-col-span-12">
+                <h1 class="logo">Dr. NUT</h1>
+                <div class="burger-menu" onclick="toggleMenu()">☰</div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact" class="full-width-grid-con">
+        <div class="grid-con">
+            <div class="col-span-4 m-col-span-12 l-col-span-12">
+                <h2>Contact Us</h2>
+                <p>We’d love to hear from you! Whether you have questions, feedback, or just want to say hi, reach out below.</p>
+                <img src="https://via.placeholder.com/600x300.png?text=Contact+Us" alt="Contact Us" class="contact-img">
+                <form id="contact-form" onsubmit="submitForm(event)">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone Number" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="cta-btn" onmouseover="wiggle(this)">Send Message</button>
+                </form>
+                <h3>Find Us</h3>
+                <p>Dr. NUT Headquarters<br>123 Nutty Lane, Flavor Town, NT 56789<br>Email: info@drnut.com<br>Phone: (123) 456-7890</p>
+                <img src="https://via.placeholder.com/700x350.png?text=Map" alt="Location Map" class="contact-img">
+            </div>
+        </div>
+    </section>
+
+    <footer class="full-width-grid-con">
+        <div class="grid-con">
+            <div class="col-span-4 m-col-span-12 l-col-span-12">
+                <h3>Dr. NUT</h3>
+                <p>Stay refreshed, stay nutty! Follow us on social media for updates.</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+                </div>
+                <p>© 2025 Dr. NUT. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
