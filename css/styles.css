@@ -151,7 +151,7 @@ p {
 }
 
 footer {
-    background-image: url('https://media3.giphy.com/media/Fbox1ygIqnga5dLinz/giphy.gif?cid=6c09b952p5ciomc7gtzlqgmp8avwmffuk9xf3kk2w8bk5vsa&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    background-image: url('https://64.media.tumblr.com/b93d7b87b80fd62a325b6bccab54f451/f43ce95335037022-e4/s540x810/5a66b2b735fd690bbf2a751bb8cde0507ecaafb1.gifv');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,6 +163,7 @@ footer {
 footer h3 {
     font-size: 1.8rem;
     margin-bottom: 15px;
+    color: rgb(188, 125, 243);
 }
 
 footer p {
@@ -170,7 +171,7 @@ footer p {
 }
 
 .social-links a {
-    color: #d8b4fe;
+    color: #c1b1da;
     text-decoration: none;
     margin: 0 10px;
 }
