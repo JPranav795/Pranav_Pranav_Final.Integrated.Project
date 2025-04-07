@@ -108,6 +108,7 @@ header {
     resize: vertical;
     min-height: 120px;
 }
+
 .cta-btn {
     background-color: #d8b4fe;
     border: none;
@@ -276,4 +277,31 @@ footer p {
     .hero-content p {
         font-size: 2rem;
     }
+}
+
+.products-image {
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(115, 0, 255, 0.3);
+    transition: all 0.4s ease;
+    background: linear-gradient(145deg, #1f1f2e, #240159);
+    padding: 10px;
+    display: inline-block;
+}
+
+.products-image img {
+    border-radius: 15px;
+    max-width: 100%;
+    display: block;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Hover effect */
+.products-image:hover {
+    box-shadow: 0 0 25px #9000ff, 0 0 40px #8c00ff;
+    background: radial-gradient(circle at center, #7b00ff 0%, #220367 100%);
+}
+
+.products-image:hover img {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 0 20px rgba(90, 1, 206, 0.5);
 }
