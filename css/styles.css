@@ -151,7 +151,10 @@ p {
 }
 
 footer {
-    background-color: #6a0dad;
+    background-image: url('https://media3.giphy.com/media/Fbox1ygIqnga5dLinz/giphy.gif?cid=6c09b952p5ciomc7gtzlqgmp8avwmffuk9xf3kk2w8bk5vsa&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     padding: 50px 0;
     text-align: center;
