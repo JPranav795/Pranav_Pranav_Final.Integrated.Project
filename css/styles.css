@@ -49,9 +49,12 @@ header {
 }
 
 #hero {
-    background: linear-gradient(135deg, #6a0dad, #9b59b6);
     padding: 100px 0;
     text-align: center;
+        background-image: url('https://i.pinimg.com/originals/b5/b7/31/b5b731320e2e8fe43418fa7a883f829e.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 }
 
 .hero-content h2 {
