@@ -75,10 +75,10 @@ header {
 #contact-form {
     max-width: 600px;
     margin: 40px auto;
-    background: #0d0d0d;
+    background: #1e1e2f;
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(59, 2, 151, 0.2);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
     display: flex;
     flex-direction: column;
     gap: 15px;
