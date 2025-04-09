@@ -25,6 +25,8 @@ img, embed, object, video, picture {
      grid-template-columns: 1fr minmax(0, 1200px) 1fr;
      margin: 0 auto;
      justify-content: center;
+     grid-column: 2/3;
+     grid-row: 1/1;
   }
   
    .grid-con { 
@@ -35,6 +37,8 @@ img, embed, object, video, picture {
      margin: 0 auto;
      padding-left: 5px;
      padding-right: 5px;
+     grid-row: 1/1;
+     grid-column: 2/3;
   }
   
   #heading .grid-con, #hero .grid-con, #products .grid-con, #services .grid-con{
