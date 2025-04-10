@@ -200,8 +200,11 @@ p {
 
 .feature-item img, .product-item img, .blog-item img, .team-item img {
     border-radius: 10px;
-}
-
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 .location-list {
     list-style: none;
     text-align: left;
