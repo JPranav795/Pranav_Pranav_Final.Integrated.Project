@@ -34,3 +34,12 @@ styleSheet.textContent = `
     }
 `;
 document.head.appendChild(styleSheet);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const svgIcons = document.querySelectorAll('#svg-icons-section img');
+
+    svgIcons.forEach(icon => {
+        icon.addEventListener('mouseenter', () => wiggle(icon));
+        icon.addEventListener('click', () => bubblePop(icon));
+    });
+});
