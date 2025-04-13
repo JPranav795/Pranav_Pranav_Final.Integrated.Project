@@ -2,8 +2,8 @@
 
 ## Description
 
-The Dr. Nut Website is a static web application designed to showcase "Dr. Nut," a defunct softdrink brand that revoleves around the city of New Orleans-themed concept (e.g., nut products, nutrition and storytelling). The site has three core pages:
-- **Home**: Welcomes visitors with an overview of Dr. Nut, has the some qualities of the drink Dr. NUT, the product list and review of our customers.
+The Dr. Nut Website is designed to showcase "Dr. Nut," a defunct softdrink brand that revolves around the city of New Orleans-themed concept. The site has three functional pages:
+- **Home**: Welcomes visitors with an overview of Dr. Nut, has the some qualities of the drink Dr. NUT, the product list and review of our customers. And a commercial.
 - **About**: Shares the backstory or mission of Dr. Nut and also tells about the team members behind the brand.
 - **Contact**: Provides a form for users to send messages (simulated with JS) as well as has the locations of our factories and FAQs regarding Dr. NUT.
 
@@ -11,16 +11,16 @@ This project of 'Dr. NUT' is done for the Final Integrated Project for the 2nd s
 
 ## Sprint Overview
 
-The project was completed in a single sprint, spanning approximately **3-5 days**, with the following breakdown:
+The project was completed in a single sprint, with a duration of **3-5 days**:
 
-- **Day 1: Planning & Setup**
+- **Day 1:**
   - Planned what pages to be included in the website apart from the obvious homepage.
   - Thaught of the content that is to be included in those pages.
   - Created wireframes for the diffrent sizes of the screens (Mobile, Tablet and desktop).
   - Created the repo on the GitHub (Also made the branches).
   - Created project folder and initialized files: `index.html`, `about.html`, `contact.html`, `script.js`, `styles.css` and the `grid.css`.
 
-- **Day 2: HTML Development**
+- **Day 2:**
   - Built `index.html` with a welcome section, flavours, and customer reviews.
   - Created `about.html` with a mission statement, a little history of the brand and our team introduction.
   - Designed `contact.html` with a form for name, email, and message.
@@ -28,22 +28,22 @@ The project was completed in a single sprint, spanning approximately **3-5 days*
   - Designed `grid.css`.
   - Added consistent navigation across all pages through header.
 
-- **Day 3: JavaScript Implementation**
+- **Day 3:**
   - Wrote `script.js` to handle contact form validation.
   - Tested form submissions for valid and invalid inputs.
   - Debugged navigation and script loading issues.
 
-- **Day 4: Testing & Refinement**
+- **Day 4:**
   - Tested all pages in Chrome and Edge for functionality.
   - Verified form alerts and navigation links.
   - Got feedback of the wireframes from Sir Jarrod (Aligned all the text to the left).
   - Made minor HTML and CSS adjustments for clarity and consistency.
 
-- **Day 5: Documentation**
+- **Day 5:**
   - Wrote the `README.md` to summarize and well as show the paper-plan of this project.
   - Gone through the whole website to find any minor mistake for preparing the repo for submission.
 
-The sprint is mainly written for the functionality over styling, but I also made a lot alterations in the CSS styling as well.
+The sprint is mainly written for the HTML and JS functionality over styling, but I also made a lot alterations in the CSS styling as well.
 
 ## Functionality of `script.js`
 
