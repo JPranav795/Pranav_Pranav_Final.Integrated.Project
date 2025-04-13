@@ -92,11 +92,9 @@ The JavaScript is very rarely used but is focused, avoiding unnecessary complexi
 - **JavaScript**:
   - Event listeners for dynamic behavior.
   - DOM manipulation for form handling.
-- **Development Tools**:
-  - VS Code for coding.
-  - Chrome Browser DevTools for debugging.
-  - Simple JS.
-
+- **CSS**:
+  - For styling of pages and grid.css for the structure.
+  
 ## Challenges Faced
 
 - **Form Validation Logic**:
