@@ -84,7 +84,7 @@ The JavaScript is very rarely used but is focused, avoiding unnecessary complexi
 - **Minimalist Design**:
   - Focuses on functionality with clean HTML structure, ready for CSS enhancements.
 
-## Technologies Used
+## Languages Used
 
 - **HTML5**:
   - Semantic elements (`header`, `nav`, `main`, `section`) for accessibility.
@@ -110,7 +110,7 @@ The JavaScript is very rarely used but is focused, avoiding unnecessary complexi
 - **Forgot to put the Grid.css**:
   - Earlier I forgot to use the Grid.css for this assignment. I came to know at the 3rd day that we have to use the Grid.css.
   
-## Author Notes
+##  Final Thoughts
 
 This project was a fun way to practice core web development skills. I enjoyed creating Dr. Nut’s quirky world and learned a lot about form validation and debugging. Now I just hope for some good grades :D
 
