@@ -2,7 +2,7 @@
 
 ## Description
 
-The Dr. Nut Website is designed to showcase "Dr. Nut," a defunct softdrink brand that revolves around the city of New Orleans-themed concept. The site has three functional pages:
+The Dr. Nut Website is designed to showcase "Dr. Nut," a defunct softdrink brand that revolves around the city of New Orleans-themed concept. The site has three functional pages (These all pages work on mobile, tablet and desktop sizes):
 - **Home**: Welcomes visitors with an overview of Dr. Nut.
 - **About**: Shares the backstory or mission of Dr. Nut and also tells about the team members behind the brand.
 - **Contact**: Provides a form for users to send messages (with the use of JS).
