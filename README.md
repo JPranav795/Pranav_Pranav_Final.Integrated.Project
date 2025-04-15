@@ -3,19 +3,17 @@
 ## Description
 
 The Dr. Nut Website is designed to showcase "Dr. Nut," a defunct softdrink brand that revolves around the city of New Orleans-themed concept. The site has three functional pages:
-- **Home**: Welcomes visitors with an overview of Dr. Nut, has the some qualities of the drink Dr. NUT, the product list and review of our customers. And a commercial.
+- **Home**: Welcomes visitors with an overview of Dr. Nut.
 - **About**: Shares the backstory or mission of Dr. Nut and also tells about the team members behind the brand.
-- **Contact**: Provides a form for users to send messages (simulated with JS) as well as has the locations of our factories and FAQs regarding Dr. NUT.
+- **Contact**: Provides a form for users to send messages (with the use of JS).
 
 This project of 'Dr. NUT' is done for the Final Integrated Project for the 2nd semester of the IDP course in the Fanshawe College.
 
 ## Sprint Overview
 
-The project was completed in a single sprint, with a duration of **3-5 days**:
-
 - **Day 1:**
   - Planned what pages to be included in the website apart from the obvious homepage.
-  - Thaught of the content that is to be included in those pages.
+  - Thought of the content that is to be included in those pages.
   - Created wireframes for the diffrent sizes of the screens (Mobile, Tablet and desktop).
   - Created the repo on the GitHub (Also made the branches).
   - Created project folder and initialized files: `index.html`, `about.html`, `contact.html`, `script.js`, `styles.css` and the `grid.css`.
@@ -31,11 +29,10 @@ The project was completed in a single sprint, with a duration of **3-5 days**:
 - **Day 3:**
   - Wrote `script.js` to handle contact form validation.
   - Tested form submissions for valid and invalid inputs.
-  - Debugged navigation and script loading issues.
 
 - **Day 4:**
   - Tested all pages in Chrome and Edge for functionality.
-  - Verified form alerts and navigation links.
+  - Verified form pop-ups and navigation links.
   - Got feedback of the wireframes from Sir Jarrod (Aligned all the text to the left).
   - Made minor HTML and CSS adjustments for clarity and consistency.
 
@@ -43,7 +40,7 @@ The project was completed in a single sprint, with a duration of **3-5 days**:
   - Wrote the `README.md` to summarize and well as show the paper-plan of this project.
   - Gone through the whole website to find any minor mistake for preparing the repo for submission.
 
-The sprint is mainly written for the HTML and JS functionality over styling, but I also made a lot alterations in the CSS styling as well.
+The sprint is mainly written for the HTML and JS functionality over styling, but I also made a lot of changes in the CSS styling as well.
 
 ## Functionality of `script.js`
 
@@ -61,10 +58,8 @@ The `script.js` file powers the interactivity of the website, specifically the c
     - Shows an error alert (e.g., "Please fill out all fields.").
 
 - **Event Handling**:
-  - Ensures the script runs only after the DOM is fully loaded (`DOMContentLoaded` event).
   - Targets the form by its ID (`contact-form`) to avoid affecting other elements of the website.
 
-The JavaScript is very rarely used but is focused, avoiding unnecessary complexity while meeting the F.I.P’s interactivity requirements.
 
 ## Features
 
@@ -73,7 +68,7 @@ The JavaScript is very rarely used but is focused, avoiding unnecessary complexi
   - Links to Home, About, and Contact for seamless user experience.
   - Also has the glowing logo of Dr. NUT.
 - **Homepage**:
-  - Introduces Dr. Nut with a catchy headline and brief text regarding the flavours and customer reviews of this drink as well as some daily blogs .
+  - Introduces Dr. Nut with a headline and brief text regarding the flavours and customer reviews of this drink as well as some daily blogs and a commercial .
 - **About Page**:
   - Describes Dr. Nut’s mission and introduces the team behind the success.
 - **Contact Form**:
@@ -82,7 +77,7 @@ The JavaScript is very rarely used but is focused, avoiding unnecessary complexi
 - **Cross-Browser Compatibility**:
   - Tested in Chrome and Edge; works in any modern browser.
 - **Minimalist Design**:
-  - Focuses on functionality with clean HTML structure, ready for CSS enhancements.
+  - The website is simple yet stunning with a little CSS magic from my side !!!
 
 ## Languages Used
 
@@ -91,18 +86,15 @@ The JavaScript is very rarely used but is focused, avoiding unnecessary complexi
   - Form elements (`input`, `textarea`, `button`) for user interaction.
 - **JavaScript**:
   - Event listeners for dynamic behavior.
-  - DOM manipulation for form handling.
 - **CSS**:
   - For styling of pages and grid.css for the structure.
   
 ## Challenges Faced
 
 - **Form Validation Logic**:
-  - Initially, the form submitted without checking all fields. Fixed by adding a comprehensive check in `script.js`.
+  - Initially, the form submitted without checking all fields. Fixed by rechecking the `script.js`.
 - **Navigation Consistency**:
   - Ensured the navigation bar was identical across pages by copying the `header` code, avoiding manual errors.
-- **Debugging Alerts**:
-  - Early versions of `script.js` triggered alerts prematurely. Used `preventDefault()` to control form submission timing.
 - **Scope Management**:
   - Added a lot of CSS styling to make the website look attractive.
 - **Forgot to put the Grid.css**:
@@ -110,7 +102,7 @@ The JavaScript is very rarely used but is focused, avoiding unnecessary complexi
   
 ##  Final Thoughts
 
-This project was a fun way to practice core web development skills. I enjoyed creating Dr. Nut’s quirky world and learned a lot about form validation and debugging. Now I just hope for some good grades :D
+This project was a fun way to practice web development skills. I enjoyed creating Dr. Nut and learned a lot about contact form. Now I just hope for some good grades :D
 
 ---
 
