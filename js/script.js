@@ -20,7 +20,8 @@ function bubblePop(element) {
 function submitForm(event) {
     event.preventDefault();
     alert('Thanks for reaching out! We’ll get back to you soon.');
-    document.getElementById('contact-form').reset();
+    const contactForm = document.querySelector('form[name="contact-form"]');
+    contactForm.reset();
 }
 
 const styleSheet = document.createElement('style');
@@ -35,11 +36,13 @@ styleSheet.textContent = `
 `;
 document.head.appendChild(styleSheet);
 
-document.addEventListener('DOMContentLoaded', () => {
-    const svgIcons = document.querySelectorAll('#svg-icons-section img');
-
-    svgIcons.forEach(icon => {
-        icon.addEventListener('mouseenter', () => wiggle(icon));
-        icon.addEventListener('click', () => bubblePop(icon));
-    });
+const svgIcons = document.querySelectorAll('#svg-icons-section img');
+svgIcons.forEach(icon => {
+    icon.addEventListener('mouseenter', () => wiggle(icon));
+    icon.addEventListener('click', () => bubblePop(icon));
 });
+
+const contactForm = document.querySelector('form[name="contact-form"]');
+if (contactForm) {
+    contactForm.addEventListener('submit', submitForm);
+}
