@@ -65,6 +65,23 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
+var scrollBtn = document.createElement('div');
+scrollBtn.className = 'scroll-top';
+scrollBtn.innerHTML = '↑';
+document.body.appendChild(scrollBtn);
+
+scrollBtn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+window.addEventListener('scroll', function () {
+    if (window.scrollY > 200) {
+        scrollBtn.classList.add('show-scroll');
+    } else {
+        scrollBtn.classList.remove('show-scroll');
+    }
+});
+
 const svgIcons = document.querySelectorAll('#svg-icons-section img');
 svgIcons.forEach(icon => {
     icon.addEventListener('mouseenter', () => wiggle(icon));
