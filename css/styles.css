@@ -217,10 +217,7 @@ p {
 }
 
 footer {
-    background-image: url('https://64.media.tumblr.com/b93d7b87b80fd62a325b6bccab54f451/f43ce95335037022-e4/s540x810/5a66b2b735fd690bbf2a751bb8cde0507ecaafb1.gifv');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #6a0dad;
     color: white;
     padding: 50px 0;
     text-align: center;
