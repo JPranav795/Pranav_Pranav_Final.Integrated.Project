@@ -24,18 +24,46 @@ function submitForm(event) {
     contactForm.reset();
 }
 
-
-const styleSheet = document.createElement('style');
-styleSheet.textContent = `
-    @keyframes wiggle {
+var style = document.createElement('style');
+style.textContent = `
+  
+@keyframes wiggle {
         0% { transform: rotate(0deg); }
         25% { transform: rotate(5deg); }
         50% { transform: rotate(-5deg); }
         75% { transform: rotate(5deg); }
         100% { transform: rotate(0deg); }
     }
+
+    .scroll-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background: purple;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
+        display: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .show-scroll {
+        display: block;
+    }
+
+    .hidden-section {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 0.6s ease;
+    }
+
+    .show-section {
+        opacity: 1;
+        transform: translateY(0);
+    }
 `;
-document.head.appendChild(styleSheet);
+document.head.appendChild(style);
 
 const svgIcons = document.querySelectorAll('#svg-icons-section img');
 svgIcons.forEach(icon => {
