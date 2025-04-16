@@ -82,6 +82,21 @@ window.addEventListener('scroll', function () {
     }
 });
 
+var navLinks = document.querySelectorAll('.nav-list li a[href^="#"]');
+for (var i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener('click', function (e) {
+        e.preventDefault();
+        var targetId = this.getAttribute('href');
+        var target = document.querySelector(targetId);
+        if (target) {
+            window.scrollTo({
+                top: target.offsetTop - 50,
+                behavior: 'smooth'
+            });
+        }
+    });
+}
+
 const svgIcons = document.querySelectorAll('#svg-icons-section img');
 svgIcons.forEach(icon => {
     icon.addEventListener('mouseenter', () => wiggle(icon));
