@@ -97,13 +97,17 @@ for (var i = 0; i < navLinks.length; i++) {
     });
 }
 
-const svgIcons = document.querySelectorAll('#svg-icons-section img');
-svgIcons.forEach(icon => {
-    icon.addEventListener('mouseenter', () => wiggle(icon));
-    icon.addEventListener('click', () => bubblePop(icon));
-});
+var svgIcons = document.querySelectorAll('#svg-icons-section img');
+for (var i = 0; i < svgIcons.length; i++) {
+    svgIcons[i].addEventListener('mouseenter', function () {
+        wiggle(this);
+    });
+    svgIcons[i].addEventListener('click', function () {
+        bubblePop(this);
+    });
+}
 
-const contactForm = document.querySelector('form[name="contact-form"]');
+var contactForm = document.querySelector('form[name="contact-form"]');
 if (contactForm) {
     contactForm.addEventListener('submit', submitForm);
 }
