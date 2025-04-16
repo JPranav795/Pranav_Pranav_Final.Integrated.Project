@@ -1,18 +1,18 @@
 function toggleMenu() {
-    const navList = document.querySelector('.nav-list');
+    var navList = document.querySelector('.nav-list');
     navList.classList.toggle('active');
 }
 
 function wiggle(element) {
     element.style.animation = 'wiggle 0.5s ease';
-    setTimeout(() => {
+    setTimeout(function () {
         element.style.animation = '';
     }, 500);
 }
 
 function bubblePop(element) {
     element.style.transform = 'scale(1.5)';
-    setTimeout(() => {
+    setTimeout(function () {
         element.style.transform = 'scale(1)';
     }, 300);
 }
@@ -20,9 +20,10 @@ function bubblePop(element) {
 function submitForm(event) {
     event.preventDefault();
     alert('Thanks for reaching out! We’ll get back to you soon.');
-    const contactForm = document.querySelector('form[name="contact-form"]');
+    var contactForm = document.querySelector('form[name="contact-form"]');
     contactForm.reset();
 }
+
 
 const styleSheet = document.createElement('style');
 styleSheet.textContent = `
