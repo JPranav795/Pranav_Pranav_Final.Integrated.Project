@@ -52,13 +52,17 @@ The `script.js` file powers the interactivity of the website, specifically the c
 
 - **User Feedback**:
   - On valid input:
-    - Displays an alert (e.g., "Thank you, [Name]! Your message has been sent to Dr. Nut.").
+    - Displays an alert ("Thank you, [Name]! Your message has been sent to Dr. Nut.").
     - Resets the form for reuse.
   - On invalid input:
     - Shows an error alert (e.g., "Please fill out all fields.").
 
 - **Event Handling**:
   - Targets the form by its ID (`contact-form`) to avoid affecting other elements of the website.
+
+- **Interactivity**:
+  - Handles the scrolling of the page.
+  - Make the buttons wiggle when hovered.
 
 
 ## Features
@@ -85,7 +89,7 @@ The `script.js` file powers the interactivity of the website, specifically the c
   - Semantic elements (`header`, `nav`, `main`, `section`) for accessibility.
   - Form elements (`input`, `textarea`, `button`) for user interaction.
 - **JavaScript**:
-  - Event listeners for dynamic behavior.
+  - Handles the scrolling, buttons and the form.
 - **CSS**:
   - For styling of pages and grid.css for the structure.
   
@@ -94,7 +98,7 @@ The `script.js` file powers the interactivity of the website, specifically the c
 - **Form Validation Logic**:
   - Initially, the form submitted without checking all fields. Fixed by rechecking the `script.js`.
 - **Navigation Consistency**:
-  - Ensured the navigation bar was identical across pages by copying the `header` code, avoiding manual errors.
+  - Ensured the navigation bar was identical across pages by copying the `header` HTML code, avoiding manual errors.
 - **Scope Management**:
   - Added a lot of CSS styling to make the website look attractive.
 - **Forgot to put the Grid.css**:
@@ -102,7 +106,7 @@ The `script.js` file powers the interactivity of the website, specifically the c
   
 ##  Final Thoughts
 
-This project was a fun way to practice web development skills. I enjoyed creating Dr. Nut and learned a lot about contact form. Now I just hope for some good grades :D
+This project was a fun way to practice web development skills. I enjoyed creating Dr. Nut and learned a lot about contact form. Now I'm just hoping for some good grades :D
 
 ---
 
